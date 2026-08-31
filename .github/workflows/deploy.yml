@@ -25,5 +25,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 6f221913e1aba4db9e6d524530a5be9a
           config: wrangler.json
-          wranglerVersion: 'latest'
